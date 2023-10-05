@@ -1,0 +1,41 @@
+@media (max-width: 767px) {
+    #banner .slide{
+    height: 500px;
+    }
+    #banner .slide h2 {
+        font-size: 45px;
+        
+    }
+    #banner .bannerDots {
+        display: none !important;
+    }  
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .vedio{
+        position: relative;
+    }
+}
+
+@media (min-width: 992px) {
+    .vedio{
+        top: 0;
+        width: 50%;
+        position: absolute;
+        right: 0;
+    } 
+}
+
+
+
+@media (max-width: 575px) {
+    .footerService .content{
+        border: none;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 991px) {
+    .footerService:nth-child(even) .content{
+        border: none;
+    }
+}
